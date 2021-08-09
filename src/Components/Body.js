@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ProjectInfo from './ProjectInfo';
+import InfoContainer from './InfoContainer';
 
 class Body extends Component {
     constructor(props) {
@@ -13,10 +13,9 @@ class Body extends Component {
     render() {
         return (
             <div className="container">
-                <ProjectInfo id={"chess"} text="CHess is cool as fuck man!"/>
-                <ProjectInfo id={"calendar"} text="Calendar is useful as heck"/>
-                <ProjectInfo id={""} text=""/>
-                <ProjectInfo id={""} text=""/>
+                <InfoContainer id={"calendar"} text="<Cal-&-r/>"/>
+                <InfoContainer id={"chess"} text="Chess"/>
+                <InfoContainer id={"random"} text="Something"/>
                 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
             </div>
         )
